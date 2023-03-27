@@ -5,7 +5,7 @@ metadata:
   labels:
     app: envoy-pod
 spec:
-  nodeName: worker2-k8sho
+  #nodeName: worker2-k8sho
   containers:
   - name: envoy
     image: envoyproxy/envoy-dev:f08b17516026882a0964a225c0135dc996b964af
